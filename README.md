@@ -7,6 +7,13 @@ The question box rotates when the answer is incorrect and the text colour change
 When the answer is right, the box size widens and the text colour changes to green
 
 
+
+ <img src="trivia1.bmp" width="100" height="100">
+ <img src="trivia2.bmp" width="100" height="100">
+ <img src="trivia3.bmp" width="100" height="100">
+
 ![mobile app](trivia1.bmp)
 ![mobile app](trivia2.bmp)
 ![mobile app](trivia3.bmp)
+
+
