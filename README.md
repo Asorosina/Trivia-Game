@@ -8,9 +8,9 @@ When the answer is right, the box size widens and the text colour changes to gre
 
 
 
- <img src="trivia1.bmp" width="500" height="1000">
- <img src="trivia2.bmp" width="100" height="1000">
- <img src="trivia3.bmp" width="100" height="1000">
+ <img src="trivia1.bmp" width="300" height="600">
+ <img src="trivia2.bmp" width="300" height="600">
+ <img src="trivia3.bmp" width="300" height="600">
 
 
 
