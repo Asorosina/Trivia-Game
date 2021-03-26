@@ -8,3 +8,4 @@ When the answer is right, the box size widens and the text colour changes to gre
 
 
 ![mobile app](trivia.bmp)
+![mobile app](trivia2.bmp)
