@@ -7,10 +7,10 @@ The question box rotates when the answer is incorrect and the text colour change
 When the answer is right, the box size widens and the text colour changes to green
 
 
-
+<p align="center">
  <img src="trivia1.bmp" width="300" height="600">
  <img src="trivia2.bmp" width="300" height="600">
  <img src="trivia3.bmp" width="300" height="600">
-
+</p>
 
 
