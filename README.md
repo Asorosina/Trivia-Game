@@ -9,9 +9,9 @@ When the answer is right, the box size widens and the text colour changes to gre
 
 
 <p align="center">
- <img src="trivia1.bmp" width="260" height="550" margin = "10px 10px 10px 10px">
- <img src="trivia2.bmp" width="260" height="550" margin = "10px 10px 10px 10px">
- <img src="trivia3.bmp" width="260" height="550" margin = "10px 10px 10px 10px">
+ <img src="trivia1.bmp" width="260" height="550">
+ <img src="trivia2.bmp" width="260" height="550">
+ <img src="trivia3.bmp" width="260" height="550">
 </p>
 
 
