@@ -1,7 +1,6 @@
 package com.angela.trivia.controller;
 
 import android.app.Application;
-
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
@@ -9,7 +8,6 @@ import com.android.volley.toolbox.Volley;
 public class AppController extends Application {
     private static AppController instance;
     private RequestQueue requestQueue;
-
 
     public static synchronized AppController getInstance() {
 
