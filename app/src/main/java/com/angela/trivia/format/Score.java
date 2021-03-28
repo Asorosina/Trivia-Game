@@ -10,9 +10,7 @@ public class Score {
     public Score(){
     }
 
-
     // setters and getters
-
     public int getScore() {
         return score;
     }
