@@ -21,9 +21,7 @@ public class Question {
 
     }
 
-
-
-//getters and setters
+    //getters and setters
 
     public String getAnswer() {
         return answer;
