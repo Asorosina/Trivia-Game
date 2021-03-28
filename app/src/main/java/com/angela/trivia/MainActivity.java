@@ -2,20 +2,17 @@ package com.angela.trivia;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
-
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-
 import com.angela.trivia.data.QuestionBank;
 import com.angela.trivia.databinding.ActivityMainBinding;
 import com.angela.trivia.format.Question;
 import com.angela.trivia.format.Score;
 import com.angela.trivia.preferences.Preferences;
 import com.google.android.material.snackbar.Snackbar;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,15 +25,11 @@ public class MainActivity extends AppCompatActivity {
     private Score score;
     private Preferences preferences;
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
-
 
         score = new Score();
 
@@ -56,9 +49,6 @@ public class MainActivity extends AppCompatActivity {
             updateQuestion();
             preferences.saveHighestScore(correctAnswers);
             binding.scoreText.setTextColor(Color.BLACK);
-
-
-
 
         });
         binding.trueButton.setOnClickListener(v -> {
