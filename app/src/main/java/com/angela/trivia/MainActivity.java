@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
             }
             updateQuestion();
 
-    });
+        });
 
         binding.falseButton.setOnClickListener(View -> {
             checkAnswer(false);
@@ -89,12 +89,10 @@ public class MainActivity extends AppCompatActivity {
             binding.scoreText.setText("0");
             zoomInAnimationFinalScore();
             preferences.saveHighestScore(correctAnswers);
-            //
 
         });
 
         binding.highestScoreText.setText("Highest score: "+String.valueOf(preferences.getHighestScore()));
-
     }
 
     private void updateTextPointer(List<Question> questionList) {
